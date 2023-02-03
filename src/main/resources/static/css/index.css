@@ -45,3 +45,14 @@
     width:100px;
     height:100px;
 }
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: #aaa;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+a{
+/*para el espacio entre cosas*/
+    display: block;
+}
