@@ -16,6 +16,8 @@ import java.io.Serializable;
  */
 @Entity
 @Table(name="personas")
+//nombre de la tabal en mysql
+//la clase debe ir al contrario de mysql, es deci plural o singular a este
 public class Persona implements Serializable{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
